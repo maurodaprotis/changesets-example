@@ -1,0 +1,23 @@
+{
+  "name": "changesets-example",
+  "version": "0.0.0",
+  "description": "Changesets example for simple package repo",
+  "main": "index.js",
+  "author": "Mauro Daprotis <maurodaprotis@gmail.com>",
+  "license": "MIT",
+  "repo": {
+    "type": "git",
+    "url": "git+https://github.com/maurodaprotis/changesets-example.git"
+  },
+  "scripts": {
+    "test": "echo 'placeholder'",
+    "build": "echo 'placeholder'",
+    "changeset": "changeset",
+    "prerelease": "yarn test && yarn build",
+    "release": "changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.4.0",
+    "@changesets/cli": "^2.16.0"
+  }
+}
