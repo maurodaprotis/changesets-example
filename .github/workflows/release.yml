@@ -30,5 +30,6 @@ jobs:
           publish: yarn release
           commit: "release: 🏹 version packages"
         env:
+          # You would need to setup the NPM_TOKEN secret on your repo
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
