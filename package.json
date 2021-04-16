@@ -1,6 +1,6 @@
 {
   "name": "changesets-example",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Changesets example for simple package repository",
   "main": "index.js",
   "author": "Mauro Daprotis <maurodaprotis@gmail.com>",
