@@ -1,6 +1,6 @@
 {
   "$schema": "https://unpkg.com/@changesets/config@1.6.0/schema.json",
-  "changelog": ["@changesets/changelog-github", { "repo": "maurodaprotis/changets-example"}],
+  "changelog": ["@changesets/changelog-github", { "repo": "maurodaprotis/changesets-example"}],
   "commit": false,
   "linked": [],
   "access": "public",
