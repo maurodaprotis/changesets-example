@@ -1,11 +1,11 @@
 {
   "name": "changesets-example",
   "version": "0.0.0",
-  "description": "Changesets example for simple package repo",
+  "description": "Changesets example for simple package repository",
   "main": "index.js",
   "author": "Mauro Daprotis <maurodaprotis@gmail.com>",
   "license": "MIT",
-  "repo": {
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/maurodaprotis/changesets-example.git"
   },
